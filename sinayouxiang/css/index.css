@@ -1,0 +1,66 @@
+a{font-family: "宋体",Arial,Helvetica,sans-serif;}
+a:hover{text-decoration: underline;}
+
+.bqal{font-size: 12px;color: rgb(118, 151, 196);float: left;}
+.bqar{font-size: 12px;color: rgb(118, 151, 196);float: right;}
+.bqp{width: 270px;height: 16px;display: block;float: left;text-align: left;margin: 10px 0 0 0;}
+b{float: left;font-size: 12px;color: #888;font-weight: normal;}
+
+
+#top{width: 100%;height: 70px;}
+#main{width: 100%;height: 485px;background-image: url("images/bg.jpg");background-position: 50% 50%;background-repeat: no-repeat;background-color: rgb(250, 234, 185);}
+#bottom{width:100%;height: 36px;}
+#mainbox{width: 936px;height: 364px;padding: 48px 0 0 0;margin: auto;}
+#topbox{width: 936px;height: 70px;margin: auto;}
+#toplogo{width: 144px;height: 41px;background-image: url("images/logo.png");float: left;margin: 17px 0 0 0;}
+#topnav{float: right;margin: 39px 0 0 0;height: 14px;line-height: 10px;}
+#topnav a{font-size: 12px;color: rgb(102,102,102); }
+#topnav span{font-size: 12px;color: rgb(102,102,102); }
+
+
+#loginbox{width: 334px;height: 362px;float: right;background-color: #fff;border: 1px solid #ccc; box-shadow: 3px 3px 5px rgb(229, 229, 229);position: relative;}
+#loginbox ul{width: 336px;height: 43px;}
+.loginboxli{float: left;width: 166px;height: 42px;border-bottom: 1px solid #ccc;border-right: 1px solid #ccc;background-color: #f5f5f5;}
+.lisel{background-color: #fff;border-bottom: 0px;}
+#vip{border-right: 0px;}
+
+.lspan{font-size: 14px;font-weight: bold;line-height: 42px;text-align: center;}
+#vipicon{background-image: url("images/icon.png"); background-position: 0 -118px;padding: 0 0 0 23px;}
+
+#loginform{width:270;height: 309px;padding: 0 32px 0 32px;margin: 8px 0 0 0;}
+
+
+
+.inputbox{width: 270px;height: 36px;display: block;position: relative;}
+.linput{width: 270px;height: 36px;border: 1px solid #ccc;padding: 0 18px 0 8px;position: absolute;left: 0;top: 0;z-index: 10;background-color: transparent;*line-height: 32px;}
+.linput:hover{border:1px solid #abcff3;box-shadow:0 0 3px #abcff3 inset;}
+.linputover{border:1px solid #abcff3;box-shadow:0 0 3px #abcff3 inset;}
+.linputfocus{box-shadow:0px 0px 3px rgb(107, 155, 220) inset;border: 1px solid rgb(107, 155, 220);}
+.bgspan{line-height: 34px;font-size: 14px;color: #999;position: absolute;left: 0;top: 0;padding: 0 0 0 11px;}
+
+
+.loginerror{width: 264px;height: 22px;display: block;}
+.loginsetting{width: 270px;height: 22px;margin: 8px 0 0 0;line-height: 22px;}
+.loginsetting input{float: left;margin: 5px 0 0 0;display:block;*margin: 0;}
+.loginsetting span{font-size: 12px;float: left; margin: 0 5px 0 4px;cursor:default;}
+.loginsetting a{float: right;}
+.safetip{width: 248px;*width: 270px;height: 18px;padding: 4px 12px 2px 8px;margin: 6px 0 0 0;border: 1px solid #ccc;background-color: rgb(254, 254, 193);font-size: 12px;color: rgb(102, 102, 102);}
+.loginreg{width: 270px;height: 59px;margin: 15px 0 0 0;}
+.loginbtn{width: 96px;height: 33px;background-image: url("images/icon.png");display: block;float: left;}
+
+.loginbottom{width: 302px;height: 20px;padding: 12px 0 12px 32px;margin: 12px 0 0 -32px;border-top: 1px solid #ccc;*width: 270px;*margin: 12px 0 0 0;*padding: 12px 0 12px 0;}
+.loginbottom span{font-size: 12px;color: #888;float: left;}
+.loginbottom a{color: #f00;font-size: 12px;font-weight: bold;float: left;}
+
+
+#viploginform{width:270;height: 309px;padding: 0 32px 0 32px;position: absolute;left: 0;top: 51px;background-color: #fff;display: none;z-index: 20;}
+#vipusername{width: 158px;float: left;}
+#vipaddress{width: 110px;height: 34px;border: 1px solid #ccc;border-left: 0px;display: block;float: right;line-height: 34px;font-weight: 700;font-family: verdana;font-size: 14px;background-color: #fff;color: #000;}
+#drxf{width: 48px;*width: 70px;height: 16px;padding: 0 0 0 18px;background-image: url("images/icon.png");background-position: 0 -160px;}
+
+#btbox{width: 936px;height: 36px;margin: auto;}
+#btbox p{font-size: 12px;color: #888;white-space: pre;width: 480px;height: 36px;display: block;float: left;line-height: 36px;}
+#btbox a{text-decoration: none;font-size: 12px;display: block;float: right;color: #555;line-height: 36px;}
+#btbox a:hover{text-decoration: underline;}
+#btbox span{float: right;font-size: 12px;color: #555;line-height: 36px;margin: 0 10px 0 10px;}
+

@@ -1,0 +1,112 @@
+*{font-family: 微软雅黑}
+a:hover{text-decoration: underline;}
+h2{font-size: 38px;color: rgb(26,26,26);font-weight: normal;text-align: left;margin: 9px 0 19px 0;width: 230px;float: left;}
+h3{font-size: 26px;color: rgb(26,26,26);font-weight: normal;text-align: left;margin: 6px 0 14px 0;}
+#top{width: 100%;height: 100px;padding: 30px 0 0 0;}
+#imgbox{width: 100%;height: 455px;position: relative;}
+#discover{width: 100%;height: 519px;padding: 33px 0 33px 0;}
+#followus{width: 100%;height: 209px;padding: 33px 0 33px 0;background-color: rgb(21, 112, 166);}
+#sites{width: 100%;height: 429px;padding: 33px 0 0 0 ;background-color: rgb(238, 238, 238);}
+#bottom{width: 100%;height: 77px;padding: 13px 0 0 0;background-color: rgb(238, 238, 238);}
+
+/*top*/
+#title{width: 1180px;height: 48px;padding: 5px 0 0 0; margin: auto;background-image: url("images/logo.png");background-repeat: no-repeat;background-position: 0 2px;}
+#searchbox{width:466px;height: 24px;border: 1px solid #666; float: right;text-align: left;}
+#searchbox input{width: 442px;height: 24px;padding: 0 4px 0 4px;line-height: 24px;border: 0;float: left;}
+#searchbox img{width: 16px;height: 16px;margin: 4px 0 0 4px;float: left;cursor: pointer;}
+#menu{width: 1180px;height: 43px;margin: auto;line-height: 43px;}
+#menu dl{float: left;margin: 0 10px 0 0px;cursor: pointer;}
+#menu dl dt{display: block;padding: 0 10px 0 10px;}
+#menu dl dt i{margin: 0 0 0 3px;}
+.menusel{background-color: rgb(238, 238, 238); }
+#findstore{float: right;color: rgb(11, 63, 94);}
+.menucon{width: 100%;height: 487px;background-color: rgb(238, 238, 238);position: absolute;left: 0;top: 125px;*top: 120px;z-index: 100;display: none;}
+.menuconbox{width: 1180px;height: 445px;margin: auto;padding: 21px 26px 21px 26px;}
+
+
+
+
+/*imgbox*/
+.imgb{width: 100%;height: 100%;background-size:auto 455px;position: absolute;left: 0;top: 0;display: none;}
+#imgb1{background-image: url("images/1.jpg");display: block;}
+#imgb2{background-image: url("images/2.jpg");}
+#imgb3{background-image: url("images/3.png");}
+#imgb4{background-image: url("images/4.jpg");}
+.imgbtext{width: 1180px;height: 255px;margin: auto;padding: 25px 0 0 0;}
+.imgbtextbox{width: 250px;height: 195px;padding: 17px 25px 17px 25px;text-align: left;color: #fff;float: left;}
+.imgbtextbox img{width: 197px;height: 24px;margin: 5px 0 17px 0;}
+.imgbtextbox span{font-size: 23px;width: 250px;display: block;margin: 0 0 15px 0;}
+.imgbtextbox a{font-size: 14px;display: block;color: #fff;margin: 10px 0 0 0;}
+#imgbtextbox1{background-color: rgb(68, 35, 89);}
+#imgbtextbox2{background-color: rgb(68, 35, 89);}
+#imgbtextbox3{background-color: rgb(0, 32, 80);}
+#imgbtextbox4{background-color: rgb(0, 138, 0); height: 218px;}
+
+#imgboxsel{width: 100%;height: 40px;position: relative;top: 85%;z-index: 50;}
+#pageselect{width: 100px;height: 60px;position: absolute;left: 85%;}
+#pageselect li{width: 24px;height: 30px;float: left;line-height: 24px;cursor: pointer;font-size: 32px;color: #fff;}
+
+
+
+
+
+/*discover*/
+#discon{width: 1180px;height: 517px;margin: auto;}
+#disc{width: 277px;height: 100%;float: left;}
+#disc ul{padding: 4px 0 8px 0;float: left;}
+#disc ul li{text-align: left;margin: 0 0 14px 0;}
+#disc ul li a{font-size: 20px;color: rgb(21, 112, 166);display: block;height: 28px;line-height: 28px;font-weight: normal;}
+#forh{width: 879px;height: 100%;float: right;}
+#forhhead{width: 100%;height: 79px;text-align: left;}
+#forwork{width: 55px;*width: 70px;height: 20px;padding: 4px 8px 4px 8px;color: #fff;background-color: rgb(8, 48, 71);font-size: 12.8px;display: block;float: left;margin: 22px 0 0 -10px;}
+.pica{width: 278px;height: 192px;display: block;float: left;margin: 0 15px 0 0;color: rgb(21, 112, 166);font-size: 13px;text-align: left;}
+.pica img{width: 278px;height: 139px;}
+#forhtext{width: 100%;height: 202px;}
+.forhtextcon{width: 30%;height: 100%;float: left;margin: 10px 3.3% 0 0;}
+.forhtextcon ul{padding: 4px 0 8px 0;}
+.forhtextcon ul li{margin: 0 0 10px 0;text-align: left;}
+.forhtextcon ul li a{color: rgb(21, 112, 166);font-size: 13px;}
+/*followus*/
+#foluscon{width: 1180px;height: 208px;margin: auto;}
+#folus{width: 240px;height: 100%;float: left;}
+#folush2{color: #fff;}
+#folus ul{padding: 0px 0 4px 0;float: left;}
+#folus ul li{text-align: left;margin: 0 0 10px 0;}
+#folus ul li a{font-size: 16px;color: #fff;display: block;height: 28px;line-height: 28px;font-weight: normal;}
+
+#folusr{width: 927px;height: 194px;padding: 20px 0 0 0;float: right;}
+#folusr ul{width: 871px;height: 112px;*height: 164px;padding: 28px;background-color: rgba(0, 0, 0, 0.16);position: relative;*background-color:rgb(8, 48, 71); }
+#folusr ul li{width: 815px;height: 110px;position: absolute;float: left;left: 28px;top: 28px;}
+#folusr ul li div{float: left;}
+#folusr ul li div img{width: 150px;height: 112px;margin: 0 24px 0 0;float: left;}
+#folusr ul li div h3{color: #fff;font-size: 20px;font-weight: normal;width: 640px;display: block; float: right;}
+#folusr ul li div h4{color: #fff;font-size: 16px;font-weight: normal;width: 640px;display: block; float: right;}
+.flustxt{width:640px;height: 112px;text-align: left; }
+#folusrli1{display: block;}
+#folusrli2{display: none;}
+#folusrli3{display: none;}
+
+
+/*sites*/
+#sitescon{width: 1180px;height: 428px;margin: auto;}
+.sitesconunit{width: 277px;*width: 270px;height: 100%;text-align: left;float: left;margin: 0 15px 0 0;}
+
+#sitesul{margin: 14px 0 24px 0;padding: 4px 0 8px 0;}
+#sitesul li{margin: 0 0 12px 0;}
+#sitesul li a{color: #000;}
+#sitesul li img{width: 26px;height: 26px;margin: 0 10px -6px 0;}
+.textarea span{margin: 0 0 10px 0;display: block;}
+.textarea ul{padding: 4px 0 8px 0;margin: 0 0 24px 0;}
+.textarea ul li{margin: 0 0 10px 0;}
+.textarea ul li a{color: rgb(21, 112, 166);font-size: 13px;}
+
+/*bottom*/
+#btmbox{width: 1180px;height: 77px;margin:auto;}
+#btml{width: 400px;height:50px;float: left;text-align: left;}
+#btml span{font-size: 24px;}
+#btml a{color:rgb(21, 112, 166) ;font-size: 13px;}
+#btmr{width: 700px;height: 100%;float: right;text-align: right;}
+#btmr ul{margin: 18px 0 0 0;}
+#btmr ul li{float: right;font-size: 13px;margin: 0 0 0 20px;}
+#btmr ul li a{color: rgb(21, 112, 166);}
+

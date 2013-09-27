@@ -1,0 +1,92 @@
+
+
+
+a:hover{text-decoration: underline;}
+i{font-weight: 200;}
+#top{width: 100%;height: 36px;margin: 18px auto; position: fixed;z-index: 1000;*position: absolute;}
+#topnav{width: 980px;height: 36px;margin: auto;background-image: url("images/topnavbg.png");border-radius: 5px;}
+#main{width: 100%;height: 100%;position: relative;overflow: hidden;}
+#mainbox{width: 400%;height: 100%;left: 0%;top: 0%;position: absolute;}
+#bottom{width: 100%;height: 90px;}
+.mainpage{width: 25%;height: 100%;}
+.mainpageleft{float: right;}
+.mainpageright{float: left;}
+.mainpagesel{}
+#main1{background-color: rgb(90, 198, 255);}
+#main2{background-image: url("images/2bg.png");}
+#main3{background-color: #fff;background-image: url("images/3.jpg");background-repeat: no-repeat;background-position: -30px 80px; }
+#main4{background-image: url("images/4.jpg");background-size: auto 750px;background-position: 200px 0;background-repeat: no-repeat;background-color: #000;}
+
+.besides{width: 12%;height: 100%;top: 0;position: absolute;}
+#left{left: 0;}
+#right{left: 88%;}
+.arrow{width: 27px;height: 44px;margin: 280px auto;background-image:url("images/arrow.png");display: none;}
+#leftarrow{background-position: 0 0;}
+#leftarrow:hover{background-position: 0 -90px;}
+#rightarrow{background-position: 0 -45px;}
+#rightarrow:hover{background-position: -28px 0;}
+
+#pageselect{width: 10%;height: 20px;position: absolute;left: 45%;top: 90%;}
+#pageselect li{width: 25%;height: 20px;float: left;line-height: 20px;cursor: pointer;}
+#pageselect li i{font-size: 8px;}
+#li1 i{font-size: 12px;line-height: 26px;}
+
+
+#topnavul{width: 840px;height: 36px;float: left;}
+#topnavul li{width: 12.3%;height: 36px;float: left;line-height: 34px;color: #fff;font-size: 12px;border-right: 1px solid #444;}
+#topnavul li:hover{background-color: #222;border-radius: 5px;}
+#appleicon{background-image: url("images/icon.svg");background-position: 50% 2px;}
+#search{width: auto;height: auto;padding: 8px 13px 8px 13px;float: right;position: relative;}
+#searchinput{width: 106px;height: 19px;padding: 0 18px 0 22px;background-color: transparent;border: 0px;border-radius: 9.5px;border-top: 2px solid#000;border-bottom: 1px solid#ccc;}
+#iconsearch{width: 15px;height: 14px;display: block;position: absolute;left: 18px;top: 11px;color: #fff;font-size: 12px;}
+
+#bottombox{width: 980px;height: 54px;margin:auto;padding: 10px 0 0 26px;}
+#bottombox p a{color: rgb(0, 136, 204);}
+#bottombox span{display: block;font-size: 10px;}
+.btp1{width: 480px;height: 12px;padding: 15px 0 0 0;font-size: 10px;display: block;float: left;color: rgb(110, 110, 110);line-height: 12px;text-align: left;}
+.btp2{width: 500px;height: 12px;padding: 15px 0 0 0;float: right;display: block;font-size: 10px;text-align: right;color: rgb(110, 110, 110);}
+.btp2 a{font-size: 10px;display: block;float: right;padding: 0 5px 0 5px;}
+.btp2 span{float: right;}
+.btp2 a img{width: 16px;height: 16px;}
+
+
+
+
+
+
+
+
+
+
+.texttitle{width: 100%;height: 150px;margin: 150px 0 0 0;}
+.texttitle h1{font-size: 72px;font-weight: normal;}
+.texttitle h2{font-size: 26px;}
+
+.bgimg{margin: 40px;}
+.bgimg img{width: 948px;height: 131px;}
+.bgimg2{margin: -10px;}
+.bgimg2 img{width: 948px;height: 248px;}
+.textbottom{width: 680px;height: 96px;margin:-30px auto;}
+.textbottom h1{width: 100%;height:53px;display: block; }
+.textbottom h2{display: block;width: 100%;height: 43px;}
+.textbottom h2 a{padding: 0 40px 0 40px;color: #000;}
+.textbottom h2 a:hover{color: #fff;text-decoration: none;}
+
+
+.texttitle3{width: 800px;height: 150px;margin: 250px 0 0 0;float: right;}
+.texttitle3 h1{font-size: 72px;font-weight: normal;}
+.texttitle3 h2{font-size: 26px;color: #000;font-size: 26px;margin: 20px 0 0 0}
+.texttitle3 h3{margin: 30px 0 0 0;}
+.texttitle3 h3 span{font-size: 28px;color:rgb(0, 136, 204); line-height: 28px;}
+.texttitle3 h3 a{color:  rgb(0, 136, 204);font-weight: normal;font-size: 22px;margin: 0 10px 0 30px;}
+
+
+.texttitle4{width: 840px;height: 150px;margin: 250px 0 0 0;float: left;}
+.texttitle4 h1{font-size: 72px;font-weight: normal;color: #fff;}
+.texttitle4 h2{font-size: 26px;color: #000;font-size: 26px;margin: 20px 0 0 0}
+.texttitle4 h3{margin: 30px 0 0 0;}
+.texttitle4 h3 span{font-size: 28px;color:rgb(0, 136, 204); line-height: 28px;}
+.texttitle4 h3 a{color:  rgb(0, 136, 204);font-weight: normal;font-size: 22px;margin: 0 10px 0 30px;}
+
+
+
