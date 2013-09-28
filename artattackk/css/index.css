@@ -1,0 +1,76 @@
+
+*{font-family: Georgia;color: rgb(82, 97, 113);}
+body{background-image: url("images/body_bg.jpg");width: auto;height: auto;background-position: 50% 0;}
+p{text-align: left;}
+#main{width: 100%;height: 1854px;}
+#page{width: 980px;height: 100%;margin: auto;}
+#top{width: 950px;height: 43px;padding: 27px 0 0 0;text-align: right;}
+#header{width: 980px;height: 151px;padding: 22px 0 0 0;}
+#gunningdown{width: 980px;height: 375px;margin: -57px 0 30px 0;background-image: url("images/gunning_down_img.gif");background-position: 100% 50%;background-repeat: no-repeat;}
+#workfor{width: 980px;height: 321px;}
+#whoweare{width: 980px;height: 235px;text-align: left;padding: 30px 0 0 0;}
+#links{width: 980px;height: 150px;margin: 15px 0 0 0;}
+#showoff{width: 600px;height: 306px;margin: 60px 0 0 0;padding: 80px 0 30px 40px;}
+#bottom{width: 910px;height: 22px;padding: 0 0 15px 40px;}
+#topbar{width: 256px;height: 189px;position: absolute;left: 0;top: 0;}
+#topbar a{width: 154px;height: 189px;background-image: url("images/topbar.png");display: block;}
+
+
+
+#headlogo{width: 333px;height: 151px;float: left;}
+#header ul{width: 433px;height: 36px;margin: 36px 60px 0 0;float: right;}
+#header ul li{float: left;}
+#who{width: 75px;height: 36px;}
+#who a{width: 51px;height: 36px;display: block;background-image: url("images/menu.gif");background-position: 0 0;}
+#who a:hover{background-position: 0 -36px;}
+#what{width: 86px;height: 36px;}
+#what a{width: 64px;height: 36px;display: block;background-image: url("images/menu.gif");background-position: -75px 0;}
+#what a:hover{background-position: -75px -36px;}
+#forwhom{width: 122px;height: 36px;}
+#forwhom a{width: 97px;height: 36px;display: block;background-image: url("images/menu.gif");background-position: -161px 0;}
+#forwhom a:hover{background-position: -161px -36px;}
+#where{width: 93px;height: 36px;}
+#where a{width: 66px;height: 36px;display: block;background-image: url("images/menu.gif");background-position: -283px 0;}
+#where a:hover{background-position: -283px -36px;}
+#wow{width: 57px;height: 36px;}
+#wow a{width: 57px;height: 36px;display: block;background-image: url("images/menu.gif");background-position: -376px 0;}
+#wow a:hover{background-position: -376px -36px;}
+
+#gdimg{width: 354px;height: 187px;padding: 111px 0 0 0;}
+
+
+#workforp{height: 30px;display: block;padding: 0 0 15px 0;}
+.headp{padding: 0 0 10px 0;line-height: 24px;text-align: left;height: 30px;display: block;}
+#arrow{width: 980px;height: 0;}
+#arrow span{position: relative;top: 125px;}
+#leftarrow{float: left;display: none;}
+#rightarrow{float: right;}
+#workforimg{width: 864px;height: 280px;margin: 0 0 0 60px;overflow: hidden;position: relative;}
+#workforul{width: 2808px;height: 266px;position: absolute;left: 0;top: 0;}
+#workforul li{float: left;padding: 0 0 6px 0;width: 216px;height: 266px;}
+
+
+#whowearep{height: 29px;display: block;padding:  0 0 10px 0;}
+#whoweare p{margin: 0 0 12px 0;line-height: 24px;font-size: 14px;}
+#links li{float: left;}
+#links a{display: block;height: 150px;background-image: url("images/home_services_icon.png"); }
+#website{width: 176px;margin: 0 0 0 18px; background-position: -18px 0;}
+#website:hover{background-position: -18px -100%;}
+#branding{width: 102px;margin: 0 0 0 80px; background-position: -260px 0;}
+#branding:hover{background-position: -260px -100%;}
+#development{width: 148px;margin: 0 0 0 67px; background-position: -429px 0;}
+#development:hover{background-position:-429px -100%;}
+#promotion{width: 116px;margin: 0 0 0 67px; background-position:-644px 0; }
+#promotion:hover{background-position:-644px -100%;}
+#outsourcing{width: 135px;margin: 0 0 0 67px; background-position: -827px 0;}
+#outsourcing:hover{background-position:-827px -100%;}
+
+
+
+#showoffp{height: 33px;display: block;padding: 0 0 12px 0;text-align: left;}
+#showoff ul{width: 600px;height: 261px;}
+#showoff li{width: 185px;height: 121px;margin: 0 10px 10px 0;float: left;}
+
+
+#bottom li{float: left;color: rgb(0, 34, 114);font-size: 11px;line-height: 22px;margin: 0 10px 0 0;}
+#bottom li a{color: rgb(0, 34, 114);}
