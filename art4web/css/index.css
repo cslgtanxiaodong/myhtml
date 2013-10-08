@@ -1,0 +1,69 @@
+#main{width: 100%;height: 1426px; background-image: url("images/bg.jpg");background-position: 50% -10px;background-repeat: no-repeat;}
+#mainpage{width: 100%;height: 100%;background-image: url("images/line_colors.png");background-repeat: repeat-x;background-position: 50% 0;}
+#top{width: 960px;height: 85px;padding: 15px 0 0 0;margin: auto;}
+#showimg{width: 960px;height: 600px;margin: 10px auto;}
+#content{width: 960px;height: 716px;margin: auto;}
+#bottom{width: 100%;height: 123px;background-image: url("images/line_colors.png");background-repeat: repeat-x;background-position: 50% 100%;}
+
+/*top*/
+#logo{width: 150px;height: 46px;margin: 39px 0 0 0;float: left;text-align: left;float: left;}
+#topmeun{width: 540px;height: 34px;padding: 46px 20px 0 80px;float: left;}
+.menua{display: block;padding: 0 13px 0 13px;height: 30px;line-height: 30px;border: 2px solid transparent;color: rgb(101, 119, 140);font-size: 14px;font-weight: bold;}
+.menuover{border: 2px solid rgb(200, 216, 223);border-radius: 17px;color: rgb(222, 48, 104);}
+#topmeun li{display: block;float: left;}
+
+#contact{float: right;width: 127px;height: 15px;padding: 55px 0 0 23px;}
+#facebook{width: 80px;height: 15px;background-image: url("images/fb_tw_links.png");background-position: 0 0;display: block;float: left;}
+#facebook:hover{background-position: 0 100%;}
+#twitter{width: 47px;height: 15px;background-image: url("images/fb_tw_links.png");background-position: 100% 0;display: block;float: left;}
+#twitter:hover{background-position: 100% 100%;}
+/*showimg*/
+.silde{width: 100%;height: 100%;display: none;}
+.silde h1{color: rgb(222, 49, 104);font-size: 67px;font-family: 'GibsonSemiBold';word-spacing: -10px; letter-spacing: -2px;font-weight: bold;}
+.silde h1 span{color: #000;vertical-align:baseline;font-weight: normal;white-space: pre;}
+.silde h2{font-family: 'Times New Roman';font-size: 18px;color: rgb(101, 119, 140);}
+#silde1{display: block;}
+
+
+
+/*content*/
+.conbox{width: 960px;padding: 40px 0 40px 0;overflow: hidden;border-top: 1px solid rgb(200, 216, 223);}
+.cbleft{float: left;width: 260px;height: 77px;text-align: left;}
+.cbleft h3{color: rgb(101, 119, 140);font-size: 22px;font-weight: normal;margin: 0 0 7px 0;}
+.cbleft h3 span{font-weight:bold;}
+.cbleft a{color: rgb(222, 48, 104);font-size: 12px;font-style: italic;}
+
+.cbright{width:660px;float: right;text-align: left; }
+.cbright p{color: rgb(101, 119, 140);font-size: 13px;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;line-height: 23.4px;}
+.cbright p a{color:rgb(222, 48, 104); }
+
+#silderul{width: 660px;height: 130px;}
+#silderul li{width: 200px;height: 130px;margin: 0 0 0 20px;position: relative;float: left;}
+#silderul li span{position: absolute;;width: 100%;height: 100%;display: block;text-align: center;line-height: 130px;background-image: url("images/spanbg.png");color: #fff;opacity: 0;}
+
+
+#serviceul{width: 660px;overflow: hidden;}
+#serviceul li{width: 200px;height: 70px;margin: 0 0 0 20px;float: left;background-position: 22px 50%;background-repeat: no-repeat;}
+#serviceul li a{width: 115px;height: 51px;padding: 19px 20px 0 65px;display: block;font-size: 13px;color: rgb(103, 121, 141);position: relative;}
+#serviceul li a span{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-image: url("images/servicebg.png");background-position: 50% 100%;display: none;}
+
+#serviceli1{background-image: url("images/service1.png");}
+#serviceli2{background-image: url("images/service2.png");}
+#serviceli3{background-image: url("images/service3.png");}
+
+
+#quote{width: 960px;height: 21px;padding: 90px 0 50px 0;background-image: url("images/quotebg.png");background-position: 50% -10px;background-repeat: no-repeat;}
+#quote span{color: rgb(101, 119, 140);font-size: 24px;}
+#quote a{color: rgb(222, 48, 104);font-size: 24px;font-weight: bold;text-decoration: underline;}
+#quote a:hover{color: rgb(33, 33, 33);}
+
+
+
+/*bottom*/
+#btmbox{width: 960px;height: 51px;border-top: 2px solid rgb(200, 216, 223);margin: auto;padding: 40px 0 30px 0;background-image: url("images/btmbg.png");background-repeat: no-repeat;background-position: 0% 50%;}
+#btmbox div{width: 320px;float: right;text-align: left;line-height: 19.8px;font-style: italic;}
+#btmbox div p{font-size: 11px;color: rgb(154, 166, 180);}
+#btmbox div a{color: rgb(154, 166, 180);font-size: 11px;}
+#btmbox div a:hover{color: rgb(222, 48, 104);}
+
+

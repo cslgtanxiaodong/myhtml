@@ -6,15 +6,11 @@ $(function(){
 });
 var i=0;
 function initPosition(){
-	 var left=$(window).width()-256;
-	 
-	$("#topbar").css("left",left+"px");
+	var left=$(window).width();
+	$("#rightimg").css("left",left-69+"px");
+	$("#topbar").css("left",left-256+"px");
 	var top=$(window).scrollTop()+400;
 		$("#topbar").stop().animate({"top":top+"px"},1000);
-
-
-
-
 
 }
 
