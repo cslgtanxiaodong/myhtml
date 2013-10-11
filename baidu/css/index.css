@@ -1,0 +1,21 @@
+#top{padding: 4px 10px 5px 0;text-align: right;color: rgb(153, 153, 153);font-size: 12px;}
+#content{width: 720px;height: 332px;margin: 0 auto;}
+#bottom{width: 100%; height: 100px;position: absolute;bottom: 60px;margin: auto;}
+
+#top a{color: rgb(0, 0, 204);font-size: 12px;text-decoration: underline;margin: 0 4px 0 0;font-family: arial;}
+#top span{float: right;}
+
+#logo{margin: 0 auto 3px auto;}
+#conp{text-align: left;text-indent: 125px;font-family: arial;font-size: 14px;}
+#conp b{margin: 0 6px 0 6px;}
+.cona{color: rgb(0, 0, 204);text-decoration: underline;margin: 0 6px 0 6px;font-size: 14px;}
+#search{width:418px;height: 32px;padding: 0 0 0 7px;box-shadow: 1px 1px 2px rgb(99,99,99) inset;border: 1px solid #fff;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+#btn{width: 95px;height: 32px;background-image: url("images/icons_db1b0e67.png"); background-position: 0px -240px;border: 0px;font-size: 14px;}
+
+#conp4{margin: 33px 0 33px 0;color: rgb(153, 153, 153)}
+
+#bottom p{font-size: 12px;line-height: 30px;}
+.bottoma{color: rgb(0, 0, 204);text-decoration: underline;margin: 0 6px 0 6px;font-size: 12px;}
+
+#cp{color: rgb(102, 102, 102);}
+#cpa{color: rgb(102, 102, 102);text-decoration: underline;}
