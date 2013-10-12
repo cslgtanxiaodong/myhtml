@@ -1,5 +1,63 @@
+body{background-color: rgb(247,247,247);font-family: "Tahoma","simsun";}
+#topbox{width: 100%;height: 109px;background-color: #fff;}
 #top{width: 960px;height: 109px;margin: auto;}
-#imgarea{width: 100%;height: 434px;}
-#download{width: 980px;height: 175px;margin: 3px auto;}
+#imgarea{width: 100%;height: 434px;position: relative;}
+#download{width: 980px;height: 175px;margin: 3px auto;background-image: url("images/down-bg.png");}
 #bottom{width: 980px;height: 72px;padding: 30px 0 40px 0;margin: auto;}
 
+#denglu{text-align: right;font-size: 12px;line-height: 30px;position: relative;top: 5px;}
+#denglu a{color: #000;}
+#denglu a:hover{text-decoration: underline;}
+#logo{width: 175px;height: 52px;display: block;float: left;background-image: url("images/bg.png");}
+#meunul{width: 590px;height: 18px; overflow: hidden;position: relative;top:26px;left: 20px;}
+#meunul li{float: left;background-image: url("images/bg.png");background-position: -453px 3px;padding: 0 22px 0 22px;background-repeat: no-repeat;margin-left: -1px;}
+.menua{display: block;}
+#menua1{width: 32px;height: 18px;background-image: url("images/bg.png");background-position:  0px -62px;}
+#menua2{width: 90px;height: 18px;background-image: url("images/bg.png");background-position:  -33px -81px;}
+#menua3{width: 33px;height: 18px;background-image: url("images/bg.png");background-position:  -124px -62px;}
+#menua4{width: 65px;height: 18px;background-image: url("images/bg.png");background-position:  -158px -62px;}
+#menua5{width: 32px;height: 18px;background-image: url("images/bg.png");background-position:  -224px -62px;}
+#menua6{width: 80px;height: 18px;background-image: url("images/bg.png");background-position:  -0px -666px;}
+#menua1:hover{background-position: 0px -81px;}
+#menua3:hover{background-position: -124px -81px;}
+#menua4:hover{background-position: -158px -81px;}
+#menua5:hover{background-position: -224px -81px;}
+#menua6:hover{background-position: -81px -666px;}
+#search{width: 164px;height: 24px;float: right;position: relative;top: 4px;left: 1px;}
+#search span{width: 48px;height: 22px;display: block;position: absolute;left: 10px;line-height: 22px; font-size: 12px;color: rgb(192, 192, 192);z-index: 1;}
+#txtsearch{width: 134px;height: 24px;border: 1px solid rgb(207, 207, 207); border-right: 0px;padding: 0 10px 0 10px;float: left;position: relative;z-index: 2;background-color: transparent;}
+#btnsearch{width: 29px;height: 24px;background-image: url("images/bg.png");background-position: -397px -28px;float: left;border: 0px;}
+#bgimg{width: 100%;height: 100%;position: absolute;}
+#bgimg ul{width: 100%;height: 100%;position: absolute;}
+#bgimg li{width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
+#bgimg1{background-image: url("images/banner-bg01.jpg");background-position: 50% 0px;} 
+#bgimg2{background-image: url("images/banner-bg02.jpg");background-position: 50% 0px;display: none;} 
+#bgimg3{background-image: url("images/banner-bg03.jpg");background-position: 50% 0px;display: none;} 
+#mengban{width: 100%;height: 100%;background-image: url("images/banner-mask.png");position: absolute;left: 0;top: 0;z-index: 10;}
+#left{cursor: pointer;opacity: 0.5;width: 42px;height: 73px;background-image: url("images/gphall-spt-8.png");position: absolute;left: 80px;top: 162px;z-index: 30;}
+#left:hover{opacity: 1;}
+#right{cursor: pointer;opacity: 0.5; width: 42px;height: 73px;background-image: url("images/gphall-spt-8.png");background-position: -43px 0;position: absolute; right: 80px;top: 162px;z-index: 30;}
+#right:hover{opacity: 1;}
+#conimg{width: 980px;height: 100%;position: relative;margin: auto;z-index: 20;}
+#phone{width: 251px;height: 421px;background-image: url("images/gphall-phone.png");position: relative;top: 13px;left: 62px;}
+#phone ul{width: 215px;height: 359px;position: relative;left: 18px;top: 50px;overflow: hidden;}
+#phone li{width: 100%;height: 100%;position: absolute;top: 0;}
+#phoneli1{background-image: url("images/phone-con01.jpg");left: 0;z-index: 3;}
+#phoneli2{background-image: url("images/phone-con02.jpg");left: 215px;z-index: 1;}
+#phoneli3{background-image: url("images/phone-con03.jpg");left: -215px;z-index: 1;}
+#textarea{width: 392px;height: 305px;position: absolute;right: 44px;top: 150px; background-image: url("images/banner-text.png");background-repeat: no-repeat;}
+
+#android{width: 130px;height: 92px;margin: 34px 0 0 142px;float: left;}
+#ios{width: 130px;height: 92px;margin: 34px 0 0 178px;float: left;}
+#download a{width: 130px;height: 36px;background-image: url("images/down-btns.png");display: block;margin: 10px 0 0 0;}
+#btnphone{background-position: 0px 0px;}
+#btndown{background-position: 0px -38px;}
+#btniphone{background-position: 0px -76px;}
+#btnipad{background-position: 0px -114px;}
+#btnphone:hover{background-position: -133px 0px;}
+#btndown:hover{background-position: -133px -38px;}
+#btniphone:hover{background-position: -133px -76px}
+#btnipad:hover{background-position: -133px -114px;}
+#bottom p{font-size: 12px;color: rgb(102, 102, 102);line-height: 24px;}
+#bottom a{color: rgb(102, 102, 102);font-size: 12px;}
+#bottom a:hover{text-decoration: underline;}
