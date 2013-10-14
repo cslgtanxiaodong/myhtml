@@ -22,20 +22,12 @@ function initPosition(){
 	$("#11").css({"left":"-530px","width":"530px", "height":"100px","top":"105px","opacity":"0","z-index":"0"});
 	$("#12").css({"left":"0px","height":"224px","top":"23px","z-index":"2","opacity":"0.4"});
 
-	// $(".imgbox:eq("+i+")").css({"left":"275px","width":"640px","height":"270px","z-index":"3","top":"0"});
-	// $(".imgbox:eq("+i+")").children("div").css("display","none");
-	// i++;
-	// $(".imgbox:eq("+i+")").css("left","660px");
-	// i=1;
-	// i--;
-	// $(".imgbox:eq("+i+")").css("z-index","2");
-	// i=1;
-	// alert($(".imgbox:eq(0)").attr("index"))
+	
 }
 
 function imgmove(){
 	
-	$("#"+(i+0)%13).animate({"left":"275px","width":"640px","height":"270px","top":"0",},500).css({"z-index":"3","opacity":"1"});
+	$("#"+(i+0)%13).animate({"left":"275px","width":"640px","height":"270px","top":"0"},500).css({"z-index":"3","opacity":"1"});
 	$(".imgbox").find("div").css("opacity","0.4");
 	$("#"+(i+0)%13).find("div").css("opacity","0");
 	$("#"+(i+1)%13).animate({"left":"660px","width":"530px", "height":"224px","top":"23px","opacity":"0.5"},500).css("z-index","2");
@@ -56,12 +48,7 @@ function initEleEvents(){
 		imgmove();
 		$("#btnul li").removeClass("btnon");
 		$("#btnul li:eq("+i+")").addClass("btnon");
-		// var j=i;
-		// $(".imgbox:eq("+i+")").animate({"left":"660px","width":"530px","height":"224px","top":"23px"},200);
-		// j--;
-		// $(".imgbox:eq("+i+")").animate({"left":"275px","width":"640px","height":"270px","top":"0px"},200);
-		// j=i;
-
+		
 
 
 

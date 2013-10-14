@@ -12,7 +12,7 @@ i{font-weight: 200;}
 .mainpageleft{float: right;}
 .mainpageright{float: left;}
 .mainpagesel{}
-#main1{background-color: rgb(90, 198, 255);}
+#main1{background-color: rgb(160, 236, 111);}
 #main2{background-image: url("images/2bg.png");}
 #main3{background-color: #fff;background-image: url("images/3.jpg");background-repeat: no-repeat;background-position: -30px 80px; }
 #main4{background-image: url("images/4.jpg");background-size: auto 750px;background-position: 200px 0;background-repeat: no-repeat;background-color: #000;}

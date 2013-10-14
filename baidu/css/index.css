@@ -1,6 +1,6 @@
 #top{padding: 4px 10px 5px 0;text-align: right;color: rgb(153, 153, 153);font-size: 12px;}
 #content{width: 720px;height: 332px;margin: 0 auto;}
-#bottom{width: 100%; height: 100px;position: absolute;bottom: 60px;margin: auto;}
+#bottom{width: 100%; height: 100px;position: absolute;left: 0; bottom: 60px;}
 
 #top a{color: rgb(0, 0, 204);font-size: 12px;text-decoration: underline;margin: 0 4px 0 0;font-family: arial;}
 #top span{float: right;}
@@ -14,7 +14,7 @@
 
 #conp4{margin: 33px 0 33px 0;color: rgb(153, 153, 153)}
 
-#bottom p{font-size: 12px;line-height: 30px;}
+#bottom p{font-size: 12px;line-height: 30px;width: 100%;}
 .bottoma{color: rgb(0, 0, 204);text-decoration: underline;margin: 0 6px 0 6px;font-size: 12px;}
 
 #cp{color: rgb(102, 102, 102);}
